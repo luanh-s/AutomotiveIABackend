@@ -1,0 +1,40 @@
+[
+    {
+        "id": "user_01",
+        "nome": "Carlos Silva",
+        "veiculo": "Uno Mille",
+        "ano_compra": 2020,
+        "uso": "urbano",
+        "quilometragem": 56000,
+        "historico_manutencao": [
+            "troca de óleo",
+            "pastilhas de freio"
+        ]
+    },
+    {
+        "id": "user_02",
+        "nome": "Fernanda Souza",
+        "veiculo": "Porsche Panamera",
+        "ano_compra": 2022,
+        "uso": "rodoviário",
+        "quilometragem": 32000,
+        "historico_manutencao": [
+            "troca de óleo",
+            "filtro de ar",
+            "alinhamento"
+        ]
+    },
+    {
+        "id": "user_03",
+        "nome": "João Lima",
+        "veiculo": "Ford Edge",
+        "ano_compra": 2021,
+        "uso": "misto",
+        "quilometragem": 47000,
+        "historico_manutencao": [
+            "freios",
+            "bateria",
+            "suspensão"
+        ]
+    }
+]

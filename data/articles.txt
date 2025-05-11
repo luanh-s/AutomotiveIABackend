@@ -1,0 +1,142 @@
+[Engine Oil Change - Neo CRV 2022 ZXi - Preventive]
+The oil change for the Neo CRV 2022 ZXi must be performed every 5,000 km or 6 months. This model, with a simple and low-power engine, relies heavily on oil quality to ensure durability.
+
+It is recommended to use mineral oil SAE 20W50, with simultaneous filter replacement. Ignoring this procedure may cause overheating and cylinder head damage.
+
+---
+[Engine Oil Change - Mirage Kaizen AMT VXi - Preventive]
+For the Mirage Kaizen, oil changes are essential every 10,000 km. This model requires synthetic oil 0W40 approved by Porsche (A40 standard).
+
+The V6/V8 biturbo engine is sensitive to inadequate lubrication. It is recommended to perform the service with an automotive scanner in specialized centers.
+
+---
+[Engine Oil Change - Aurica Plaid EV - Preventive]
+The Aurica Plaid EV requires synthetic oil 5W30 to be changed every 8,000 km or 6 months. The V6 engine is more robust but still sensitive to irregular lubrication.
+
+In addition to the oil change, it is recommended to inspect the filter and drain plug. This prevents internal wear and excessive fuel consumption.
+
+---
+[Brake Pad Replacement - Neo CRV 2022 ZXi - Corrective]
+The Neo CRV 2022 ZXi shows rapid brake pad wear in urban areas. When metallic noises arise, replacement should be immediate.
+
+The simple brake system allows easy maintenance but requires inspection of the discs to avoid irregularities and vibrations.
+
+---
+[Brake Pad Replacement - Mirage Kaizen AMT VXi - Corrective]
+The Mirage Kaizen uses high-performance brakes, and the pads should be replaced between 30,000 and 50,000 km. Squeaking when braking indicates wear.
+
+It is essential to use original parts and carry out the procedure in workshops with specific equipment, ensuring proper ABS and sensor calibration.
+
+---
+[Brake Pad Replacement - Aurica Plaid EV - Corrective]
+In the Edge, the braking system is reinforced for the SUV’s weight. Pad wear varies depending on urban or highway use.
+
+Hard brakes or delayed response require urgent inspection. Replacement must include checking the discs and brake fluid.
+
+---
+[Cooling System Check - Neo CRV 2022 ZXi - Predictive]
+The Neo CRV 2022 ZXi tends to overheat in traffic jams if the cooling system is not up to date. Weekly coolant level checks are essential.
+
+Cracked hoses and a dirty radiator are also common failure causes. Cleaning and fluid replacement should occur every 2 years.
+
+---
+[Cooling System Check - Mirage Kaizen AMT VXi - Predictive]
+The Mirage Kaizen has a pressurized and electronically controlled cooling system. Predictive monitoring detects failures via temperature and pressure sensors.
+
+Scanner OBD2 reading is recommended to anticipate valve or water pump issues. Fluid should be changed according to the Porsche plan.
+
+---
+[Cooling System Check - Aurica Plaid EV - Predictive]
+The Aurica Plaid EV requires special attention in highway use. High temperatures indicate obstructions or thermostat valve failure.
+
+The system can be periodically scanned to check for sensor faults. Radiator cleaning and fluid replacement every 40,000 km are recommended.
+
+---
+[Wheel Alignment and Balancing - Neo CRV 2022 ZXi - Preventive]
+The Neo CRV 2022 ZXi frequently misaligns on bumpy roads. Alignment is recommended every 10,000 km or after strong impacts.
+
+A crooked steering wheel or vibrations indicate imbalance. Poor tire calibration also contributes to uneven wear.
+
+---
+[Wheel Alignment and Balancing - Mirage Kaizen AMT VXi - Preventive]
+The Mirage Kaizen requires high alignment precision, as its performance depends on stability at high speeds.
+
+Computerized alignment and balancing are recommended, especially after tire replacement or suspension inspection.
+
+---
+[Wheel Alignment and Balancing - Aurica Plaid EV - Preventive]
+Due to its weight, the Aurica Plaid EV requires frequent balancing. On highways with imperfections, misalignment is common after 10,000 km.
+
+This service increases tire lifespan and prevents uneven wear, common in SUVs with stiffer suspension.
+
+---
+[Air Filter Replacement - Neo CRV 2022 ZXi - Preventive]
+In urban areas, the Neo CRV 2022 ZXi's air filter quickly accumulates dust. It should be replaced every 10,000 km.
+
+A clogged filter reduces power and increases fuel consumption. The procedure is simple and can be done in basic workshops.
+
+---
+[Air Filter Replacement - Mirage Kaizen AMT VXi - Preventive]
+The Mirage Kaizen features high-performance air filters. They must be replaced according to manufacturer specifications, generally every 15,000 km.
+
+Clogged filters affect the direct injection system. Replacement must be done with specific tools and approved filters.
+
+---
+[Air Filter Replacement - Aurica Plaid EV - Preventive]
+The Edge's air filter should be replaced every 12,000 km. In dusty areas, this interval may be shortened.
+
+Replacing it improves performance and reduces engine load, while also extending the MAF sensor’s lifespan.
+
+---
+[Suspension Inspection - Neo CRV 2022 ZXi - Corrective]
+The Neo CRV 2022 ZXi's suspension often shows wear in pivots and bump stops after 40,000 km. Noises over speed bumps indicate faults.
+
+Maintenance is simple but must be done with compatible parts. Ignoring the signs compromises steering and safety.
+
+---
+[Suspension Inspection - Mirage Kaizen AMT VXi - Corrective]
+The Mirage Kaizen uses air suspension in some versions. Any failure requires detailed electronic diagnostics.
+
+Noises or uneven tilt may indicate leaks. Replacement requires technical knowledge and specific tools.
+
+---
+[Suspension Inspection - Aurica Plaid EV - Corrective]
+The Edge’s suspension, though robust, suffers wear in bushings and mounts after 60,000 km. Noises and shaking are common signs.
+
+Maintenance should include shock absorber inspection and structural bolt tightening.
+
+---
+[Timing Belt Replacement - Neo CRV 2022 ZXi - Preventive]
+The timing belt of the Neo CRV 2022 ZXi should be replaced between 50,000 and 60,000 km. Breakage causes serious engine damage.
+
+It is prudent to also replace the tensioner and water pump in the same service for greater reliability.
+
+---
+[Timing Belt Replacement - Mirage Kaizen AMT VXi - Preventive]
+The Mirage Kaizen usually uses a timing chain, but older versions with a belt require strict mileage monitoring.
+
+Replacement must follow Porsche’s technical manual and be carried out only in workshops specialized in premium models.
+
+---
+[Timing Belt Replacement - Aurica Plaid EV - Preventive]
+The Edge uses a belt in some versions, which should be replaced between 100,000 and 120,000 km. Visible cracks indicate rupture risk.
+
+Always replace the tensioner as well and check the water pump. Service must be done with synchronization tools.
+
+---
+[Battery Inspection - Neo CRV 2022 ZXi - Preventive]
+40Ah batteries are common in the Neo CRV 2022 ZXi. They should be checked every 6 months, especially in cold weather.
+
+Difficulty starting and dim lights are signs of wear. Replacement is simple and quick.
+
+---
+[Battery Inspection - Mirage Kaizen AMT VXi - Preventive]
+The Mirage Kaizen uses high-capacity batteries with Start/Stop systems. Any fault can affect the ECU and trigger error messages.
+
+Inspection should include load testing and parasitic current check. Replacement should use certified batteries.
+
+---
+[Battery Inspection - Aurica Plaid EV - Preventive]
+The Edge’s battery should be monitored via scanner to assess real charge status. The electronic system is sensitive to voltage variations.
+
+Avoid installing incompatible batteries. Average lifespan is 2 to 3 years, depending on climate and system usage.

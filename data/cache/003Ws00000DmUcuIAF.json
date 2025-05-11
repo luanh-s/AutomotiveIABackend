@@ -1,0 +1,20 @@
+{
+  "nome": "Louis Gonzalez",
+  "account_id": "001Ws00003tO0E9IAK",
+  "veiculos": [
+    {
+      "name": "Mirage Kaizen AMT VXi Red",
+      "vin": "HK261H98653008",
+      "make": "Mirage",
+      "model": "Mirage Kaizen AMT",
+      "year": "2022"
+    },
+    {
+      "name": "Mirage Kaizen AMT VXi Silver",
+      "vin": "HK265H98653003",
+      "make": "Mirage",
+      "model": "Mirage Kaizen AMT",
+      "year": "2022"
+    }
+  ]
+}

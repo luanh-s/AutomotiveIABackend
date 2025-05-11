@@ -1,0 +1,27 @@
+{
+  "nome": "Jemmy Brown",
+  "account_id": "001Ws00003tO0DsIAK",
+  "veiculos": [
+    {
+      "name": "Aurica Plaid EV Black",
+      "vin": "HK265H98655005",
+      "make": "Aurica",
+      "model": "Aurica Plaid EV",
+      "year": "2022"
+    },
+    {
+      "name": "Neo CRV 2022 ZXi Black",
+      "vin": "HK265H98657348",
+      "make": "Neo",
+      "model": "CRV",
+      "year": "2022"
+    },
+    {
+      "name": "Neo Ionic EV CD4 2023 VXi Golden",
+      "vin": "HK265H98657671",
+      "make": "Neo",
+      "model": "Ionic CD4",
+      "year": "2023"
+    }
+  ]
+}
