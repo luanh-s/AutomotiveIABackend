@@ -38,19 +38,19 @@ def consultar_llama(prompt):
         res.raise_for_status()
         return res.json()["response"]
     except Exception as e:
-        logging.error(f"Erro ao consultar LLaMA: {str(e)}")
-        return "Erro ao gerar resposta com LLaMA local."
+        logging.error(f"Error querying LLaMA: {str(e)}")
+        return "Error generating response with local LLaMA."
 
 def consultar_chatgpt(prompt):
     try:
-        resposta = openai.ChatCompletion.create(
+        response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
             messages=[{"role": "user", "content": prompt}]
         )
-        return resposta['choices'][0]['message']['content']
+        return response['choices'][0]['message']['content']
     except Exception as e:
-        logging.error(f"Erro ao consultar ChatGPT: {str(e)}")
-        return "Erro ao gerar resposta com ChatGPT."
+        logging.error(f"Error querying ChatGPT: {str(e)}")
+        return "Error generating response with ChatGPT."
 
 @app.post("/ask")
 async def ask_agent(request: Request):
@@ -67,31 +67,31 @@ async def ask_agent(request: Request):
             user = buscar_contato_e_veiculos(user_id)
             logging.info(f"user: {repr(user)}")
             if user:
-                contexto_usuario += f"Usuário: {user.get('nome', 'Desconhecido')}\n"
+                contexto_usuario += f"User: {user.get('nome', 'Unknown')}\n"
 
                 veiculos = user.get("veiculos", [])
                 if veiculos:
-                    contexto_usuario += "Veículos:\n"
+                    contexto_usuario += "Vehicles:\n"
                     for v in veiculos:
                         contexto_usuario += (
-                            f"- {v.get('make', 'Marca desconhecida')} "
-                            f"{v.get('model', 'Modelo desconhecido')} "
-                            f"{v.get('year', 'Ano desconhecido')} "
+                            f"- {v.get('make', 'Unknown make')} "
+                            f"{v.get('model', 'Unknown model')} "
+                            f"{v.get('year', 'Unknown year')} "
                             f"(VIN: {v.get('vin', 'N/A')})\n"
                         )
                 else:
-                    contexto_usuario += "Nenhum veículo encontrado.\n"
+                    contexto_usuario += "No vehicles found.\n"
 
                 contexto_usuario += "\n"
 
         except Exception as e:
-            logging.warning(f"Erro ao obter dados do usuário: {e}")
-            contexto_usuario += "Erro ao obter dados do usuário.\n\n"
+            logging.warning(f"Error retrieving user data: {e}")
+            contexto_usuario += "Error retrieving user data.\n\n"
 
-    prompt = f"{contexto_usuario}O cliente perguntou: \"{pergunta}\"\n\n"
-    prompt += "Baseado nos seguintes artigos técnicos:\n"
+    prompt = f"{contexto_usuario}The customer asked: \"{pergunta}\"\n\n"
+    prompt += "Based on the following technical articles:\n"
     prompt += "\n".join(f"- {c}" for c in contextos)
-    prompt += "\n\nResponda de forma clara e objetiva."
+    prompt += "\n\nPlease respond clearly and objectively."
 
     logging.info(f"prompt: {prompt}")
     
