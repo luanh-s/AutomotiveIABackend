@@ -37,7 +37,7 @@ def buscar_contato_e_veiculos(contact_id):
         token, instance_url = autenticar_salesforce()
         headers = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
 
-        soql_contato = f"SELECT Id, Name, AccountId FROM Contact WHERE Id = '{contact_id}'"
+        soql_contato = f"SELECT Id, Name, AccountId FROM Contact WHERE Id = '{contact_id}' OR Id IN (SELECT ContactId FROM User WHERE Id = '{contact_id}')"
         url_query = f"{instance_url}/services/data/{SF_API_VERSION}/query"
         res = requests.get(url_query, headers=headers, params={"q": soql_contato})
         res.raise_for_status()
