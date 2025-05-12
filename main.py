@@ -92,6 +92,7 @@ async def ask_agent(request: Request):
     prompt += "Based on the following technical articles:\n"
     prompt += "\n".join(f"- {c}" for c in contextos)
     prompt += "\n\nPlease respond clearly and objectively."
+    prompt += "\n\nPlease keep the responses under 300 characters."
 
     logging.info(f"prompt: {prompt}")
     
